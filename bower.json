@@ -1,0 +1,21 @@
+{
+  "name": "challenge_6",
+  "homepage": "https://github.com/rruellepetel/challenge_6",
+  "authors": [
+    "rruellepetel <ruellepetelromain@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/external/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
