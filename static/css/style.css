@@ -126,6 +126,18 @@ main button {
 
 .as1 {
     background: url("../images/fond.png");
+    padding-top: 4em;
+}
+
+.as1 label {
+    background: linear-gradient(180deg,#FF3D00,#cd1515);
+    
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    font-weight: normal;
+
 }
 
 h4 {
