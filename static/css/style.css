@@ -269,4 +269,33 @@ blockquote {
         color: white;
         text-transform: uppercase;
     }
+
+    .as1, .as2 {
+        padding-top: 0;
+    }
+
+    main button {
+        margin-bottom: 4em;
+    }
+
+    #footercont button {
+        margin-bottom: 2em;
+        margin-left: 1.5em;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .as1, .as2 {
+        padding-top: 0;
+    }
+
+    main button {
+        margin-bottom: 4em;
+    }
+
+    #footercont button {
+        margin-bottom: 2em;
+        margin-left: 1.5em;
+    }
 }
