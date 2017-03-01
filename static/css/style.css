@@ -1,7 +1,7 @@
 header {
     text-align: center;
     background: url("../images/header.png");
-    padding: 2em;
+    padding: 1em 2em 4em 2em;
 }
 
 header img {
@@ -13,12 +13,14 @@ h1 {
     text-transform: uppercase;
     font-size: 4em;
     color: white;
+    margin-top: 0;
+    margin-bottom: 0.75em;
 }
 
 nav {
     font-family: Abel;
     font-size: 1.5em;
-    background: linear-gradient(45deg,#529CD3,#6DC3F2);
+    background: linear-gradient(180deg,#6DC3F2,#529CD3);
     border-radius: 0 !important;
 }
 
@@ -26,6 +28,7 @@ nav ul li a {
     color: white;
     text-transform: uppercase;
     font-size: 0.75em;
+    padding: 1em !important;
 }
 
 .navbar .navbar-nav {
@@ -36,4 +39,43 @@ nav ul li a {
 
 .navbar .navbar-collapse {
  text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+#artcont {
+    background: url("../images/fond.png");
+}
+
+#artcont article span {
+    font-weight: bold;
+}
+
+#secont {
+    background: url("../images/fond.png")
+}
+
+#secont section {
+    background: url("../images/fond-article.png");
+    width: 90%;
+    display: flex;
+    padding: 1em;
+    margin: 1em;
+}
+
+#secont img {
+    padding: 1em;
+}
+
+.artflex {
+    display: flex;
+    flex-direction: column;;
+    justify-content: space-between;
+}
+
+.artflex span {
+    font-weight: bold;
+    margin-bottom: 0.5em;
 }
