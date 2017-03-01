@@ -42,19 +42,34 @@ nav ul li a {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: Oswald;
+    margin: 1em 0;
 }
 
 #artcont {
     background: url("../images/fond.png");
+    padding-bottom: 3em;
 }
 
 #artcont article span {
     font-weight: bold;
 }
 
+#artcont p {
+    margin-top: 1em;
+}
+
+#artcont button {
+background: linear-gradient(180deg,#FF3D00,#cd1515);
+border: none;
+border-radius: 5px;
+color: white;
+padding: 0.5em 1em;
+}
+
 #secont {
-    background: url("../images/fond.png")
+    background: url("../images/fond.png");
 }
 
 #secont section {
@@ -78,4 +93,49 @@ h3 {
 .artflex span {
     font-weight: bold;
     margin-bottom: 0.5em;
+}
+
+main {
+    background: url("../images/fond.png");
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: Oswald;
+    text-transform: uppercase;
+    padding-top: 1.5em;
+}
+
+main span {
+    color: #FF3D00;
+    text-transform: uppercase;
+}
+
+main img {
+    margin: 1em 0;
+}
+
+main button {
+    background: linear-gradient(180deg,#FF3D00,#cd1515);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em 1em;
+}
+
+.as1 {
+    background: url("../images/fond.png");
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: Oswald;
+    margin: 0 0 1em 0;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
 }
