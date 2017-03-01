@@ -1,5 +1,4 @@
-html>
-
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +7,7 @@ html>
     <link rel="stylesheet" href="./static/external/bootstrap/dist/css/bootstrap.css">
     <script type="text/javascript" src="./static/external/jquery/dist/jquery.js"></script>
     <link rel="stylesheet" href="./static/external/bootstrap/dist/css/bootstrap-theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="./static/css/style.css">
 </head>
 <body>
@@ -15,7 +15,6 @@ html>
         <header>
             <h1>skylined</h1>
             <nav class="navbar">
-                <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -33,7 +32,6 @@ html>
                             <li><a href="#">one column</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
             </nav>
             <img src="./static/images/pics01.jpg" alt="banner" class="img-responsive">
         </header>
@@ -147,8 +145,10 @@ html>
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <section>
                         <h4>Maecenas luctus lectus</h4>
-                        <p>“  Donec leo, vivamus ullamcorper fermentum nibh in augue pulvinar ullamcorper metus praesent a lacus at urna congue ullamcorper rutrum.  ”</p>
-                        <span> –  John Smith</span>
+                        <blockquote cite="John Smith">
+                            "Donec leo, vivamus ullamcorper fermentum nibh in augue pulvinar ullamcorper metus praesent a lacus at urna congue ullamcorper rutrum.  ”
+                            -John Smith
+                        </blockquote>
                     </section>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
