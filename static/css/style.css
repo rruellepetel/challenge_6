@@ -47,6 +47,10 @@ h3 {
     margin: 1em 0;
 }
 
+p {
+    font-family: Arial;
+}
+
 #artcont {
     background: url("../images/fond.png");
     padding-bottom: 3em;
@@ -126,17 +130,18 @@ main button {
 
 .as1 {
     background: url("../images/fond.png");
-    padding-top: 4em;
+    padding: 4em 0 0 2em;
 }
 
 .as1 label {
     background: linear-gradient(180deg,#FF3D00,#cd1515);
-    
+    font-size: 12px;
     border-radius: 5px;
     color: white;
     padding: 0.5em 1em;
     text-transform: uppercase;
     font-weight: normal;
+    margin: 1.5em 0;
 
 }
 
