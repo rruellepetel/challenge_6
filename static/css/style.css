@@ -189,8 +189,38 @@ main button {
     color: #525252;
 }
 
-#secsec {
-    background: url("../images/bas-de-page.png")
+#footercont {
+    background: url("../images/footer.png");
+}
+
+#footercont section section {
+    padding-top: 2.5em;
+    margin: 1em;
+}
+
+#footercont span {
+    font-weight: bold;
+}
+
+#footercont p {
+    padding: 1em 0;
+}
+
+#footercont p:not(:last-child) {
+    border-bottom: 1px solid darkgrey;
+}
+
+#footercont button {
+    background: linear-gradient(180deg,#FF3D00,#cd1515);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em 1em;
+    margin: 2em 0 7em 0;
+}
+
+#footercont h4 {
+    padding-bottom: 1em;
 }
 
 h4 {
@@ -198,4 +228,45 @@ h4 {
     font-size: 1.5em;
     font-family: Oswald;
     margin: 0 0 1em 0;
+}
+
+blockquote {
+    background: url("../images/citation.jpg");
+}
+
+#pdpcont {
+    background: url("../images/bas-de-page.png");
+    text-align: center;
+}
+
+#pdpcont p {
+    margin: 1.5em;
+}
+
+.nopadding {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.navbar-toggle {
+    border: 1px solid white;
+}
+
+.navbar-toggle span {
+    border: 1px solid white;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        display: none;
+    }
+    .navbar-brand {
+        display: block;
+        color: white;
+        text-transform: uppercase;
+    }
 }
