@@ -1,3 +1,7 @@
+div.container {
+    background: url("../images/fond.png");
+}
+
 header {
     text-align: center;
     background: url("../images/header.png");
@@ -32,13 +36,13 @@ nav ul li a {
 }
 
 .navbar .navbar-nav {
- display: inline-block;
- float: none;
- vertical-align: top;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
 
 .navbar .navbar-collapse {
- text-align: center;
+    text-align: center;
 }
 
 h3 {
@@ -65,11 +69,11 @@ p {
 }
 
 #artcont button {
-background: linear-gradient(180deg,#FF3D00,#cd1515);
-border: none;
-border-radius: 5px;
-color: white;
-padding: 0.5em 1em;
+    background: linear-gradient(180deg,#FF3D00,#cd1515);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em 1em;
 }
 
 #secont {
@@ -99,6 +103,11 @@ padding: 0.5em 1em;
     margin-bottom: 0.5em;
 }
 
+#xdlel {
+    display: flex;
+    align-items: stretch;
+}
+
 main {
     background: url("../images/fond.png");
 }
@@ -126,11 +135,12 @@ main button {
     border-radius: 5px;
     color: white;
     padding: 0.5em 1em;
+    margin: 1em 0 7em 0;
 }
 
 .as1 {
     background: url("../images/fond.png");
-    padding: 4em 0 0 2em;
+    padding: 4em 0 0 1em;
 }
 
 .as1 label {
@@ -141,8 +151,46 @@ main button {
     padding: 0.5em 1em;
     text-transform: uppercase;
     font-weight: normal;
-    margin: 1.5em 0;
+    margin: 0.5em 0 1.33em 0;
+}
 
+.as1 p:not(:last-child) {
+    border-bottom: 1px solid lightgrey;
+}
+
+.as1 p {
+    padding-bottom: 1.5em;
+}
+
+.as2 {
+    background: url("../images/fond.png");
+    padding: 4em 0 0 1em;
+}
+
+.as2 ul {
+    list-style: url("../images/fleche.png");
+    font-family: Arial;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1.5em;
+}
+
+.as2 ul li {
+    margin: 0.5em;
+    padding: 0.7em;
+}
+
+.as2 ul li:not(:last-child) {
+    border-bottom: 1px solid lightgrey;
+}
+
+.as2 ul a {
+    color: #525252;
+}
+
+#secsec {
+    background: url("../images/bas-de-page.png")
 }
 
 h4 {
@@ -150,9 +198,4 @@ h4 {
     font-size: 1.5em;
     font-family: Oswald;
     margin: 0 0 1em 0;
-}
-
-.nopadding {
-  padding: 0 !important;
-  margin: 0 !important;
 }
